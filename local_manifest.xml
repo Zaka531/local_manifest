@@ -1,1 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
 
+ <remote  name="hubme"
+          fetch="https://github.com" />
+ <remote  name="me"
+          fetch="https://github.com/Zaka531" />
+
+ <!-- Trees -->
+ <project path="device/oppo/A37" name="android_device_oppo_A37.git" remote="me" revision="lineage-19.1" clone-depth="1" />
+ <project path="device/cyanogen/msm8916-common" name="android_device_cyanogen_msm8916-common.git" remote="me" revision="lineage-19.1" clone-depth="1" />
+ <project path="vendor/oppo/A37" name="proprietary_vendor_oppo_A37.git" remote="me" revision="lineage-19.1" clone-depth="1" />
+ <project path="kernel/oppo/msm8939" name="android_kernel_oppo_msm8916.git" remote="me" revision="deepak-test-branch/lineage-19.1" clone-depth="1" />
+ 
+</manifest>
